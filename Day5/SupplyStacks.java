@@ -1,4 +1,4 @@
-package AdventOfCode;
+package Day5;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -10,13 +10,13 @@ import java.io.FileReader;
 
 
 
-public class Day5_SupplyStacks
+public class SupplyStacks
 {
 	private static ArrayList<String> stack = new ArrayList<String>();
 	public static void main(String[] args) throws Exception
 	{
 	
-		BufferedReader reader = new BufferedReader(new FileReader("D:/scr/java/AdventOfCode/Day5/supply.txt"));
+		BufferedReader reader = new BufferedReader(new FileReader("supply.txt"));
 		String line = null;
 		String ls = System.getProperty("line.separator");
 		stack.add("NRGP");
