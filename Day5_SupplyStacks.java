@@ -16,7 +16,7 @@ public class Day5_SupplyStacks
 	public static void main(String[] args) throws Exception
 	{
 	
-		BufferedReader reader = new BufferedReader(new FileReader("D:/mypmp/scr/java/AdventOfCode/Day5/supply.txt"));
+		BufferedReader reader = new BufferedReader(new FileReader("D:/scr/java/AdventOfCode/Day5/supply.txt"));
 		String line = null;
 		String ls = System.getProperty("line.separator");
 		stack.add("NRGP");
