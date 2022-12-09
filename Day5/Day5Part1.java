@@ -10,7 +10,7 @@ import java.io.FileReader;
 
 
 
-public class SupplyStacks
+public class Day5Part1
 {
 	private static ArrayList<String> stack = new ArrayList<String>();
 	public static void main(String[] args) throws Exception
