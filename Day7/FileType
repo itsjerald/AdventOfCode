@@ -1,0 +1,21 @@
+package Day7;
+
+public class FileType
+{
+    private final long size;
+    private final String name;
+
+    public FileType(String name, long size) {
+        this.name = name;
+        this.size = size;
+    }
+
+    public long getSize()
+    {
+        return size;
+    }
+    public String getName() {
+        return name;
+    }
+
+}
